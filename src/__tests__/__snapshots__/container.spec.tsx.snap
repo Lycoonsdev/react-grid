@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> Component render <Container /> 1`] = `
+<div
+  class="container"
+  data-testid="container"
+>
+  <h1>
+    Container component
+  </h1>
+</div>
+`;
+
+exports[`<Container /> Component render <Container /> with breakpoints props 1`] = `
+<div
+  class="container container-sm container-md container-lg container-xl container-xxl"
+  data-testid="container"
+>
+  <h1>
+    Container with breakpoints
+  </h1>
+</div>
+`;
+
+exports[`<Container /> Component render <Container /> with fluid props 1`] = `
+<div
+  class="container-fluid"
+  data-testid="container"
+>
+  <h1>
+    Container fluid component
+  </h1>
+</div>
+`;

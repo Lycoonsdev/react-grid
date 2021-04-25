@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> Component render <Row /> 1`] = `
+<div
+  class="row"
+  data-testid="row"
+>
+  <h1>
+    Row component
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with gutter props 1`] = `
+<div
+  class="row g-0 g-sm-1 g-md-2 g-lg-3 g-xl-4 g-xxl-5 gx-0 gx-sm-1 gx-md-2 gx-lg-3 gx-xl-4 gx-xxl-5 gy-0 gy-sm-1 gy-md-2 gy-lg-3 gy-xl-4 gy-xxl-5"
+  data-testid="row"
+>
+  <h1>
+    Row with gutter props
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with justify-content props 1`] = `
+<div
+  class="row justify-content-around justify-content-sm-between justify-content-md-center justify-content-lg-end justify-content-xl-evenly justify-content-xxl-start"
+  data-testid="row"
+>
+  <h1>
+    Row with justify-content props
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with margin props 1`] = `
+<div
+  class="row m-0 m-sm-1 m-md-2 m-lg-3 m-xl-4 m-xxl-5 mx-0 mx-sm-1 mx-md-2 mx-lg-3 mx-xl-4 mx-xxl-5 my-0 my-sm-1 my-md-2 my-lg-3 my-xl-4 my-xxl-5 mb-0 mb-sm-1 mb-md-2 mb-lg-3 mb-xl-4 mb-xxl-5 mt-0 mt-sm-1 mt-md-2 mt-lg-3 mt-xl-4 mt-xxl-5 ms-0 ms-sm-1 ms-md-2 ms-lg-3 ms-xl-4 ms-xxl-5 me-0 me-sm-1 me-md-2 me-lg-3 me-xl-4 me-xxl-5"
+  data-testid="row"
+>
+  <h1>
+    Row component with margin props
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with padding props 1`] = `
+<div
+  class="row p-0 p-sm-1 p-md-2 p-lg-3 p-xl-4 p-xxl-5 px-0 px-sm-1 px-md-2 px-lg-3 px-xl-4 px-xxl-5 py-0 py-sm-1 py-md-2 py-lg-3 py-xl-4 py-xxl-5 pb-0 pb-sm-1 pb-md-2 pb-lg-3 pb-xl-4 pb-xxl-5 pt-0 pt-sm-1 pt-md-2 pt-lg-3 pt-xl-4 pt-xxl-5 ps-0 ps-sm-1 ps-md-2 ps-lg-3 ps-xl-4 ps-xxl-5 pe-0 pe-sm-1 pe-md-2 pe-lg-3 pe-xl-4 pe-xxl-5"
+  data-testid="row"
+>
+  <h1>
+    Row with padding props
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with row props 1`] = `
+<div
+  class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6"
+  data-testid="row"
+>
+  <h1>
+    Row component with row props
+  </h1>
+</div>
+`;
+
+exports[`<Row /> Component render <Row /> with-align items props 1`] = `
+<div
+  class="row align-items-start align-items-sm-stretch align-items-md-baseline align-items-lg-center align-items-xl-end align-items-xxl-end"
+  data-testid="row"
+>
+  <h1>
+    Row with align-items props
+  </h1>
+</div>
+`;

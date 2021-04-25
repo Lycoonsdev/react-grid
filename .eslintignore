@@ -1,0 +1,6 @@
+dist/**/*
+esm/**/*
+node_modules
+jest.config.js
+postcss.config.js
+jest-setup.ts

@@ -1,0 +1,43 @@
+import type { GutterProps } from '../types'
+
+export function getGutterClass({
+  g,
+  gSm,
+  gMd,
+  gLg,
+  gXl,
+  gXxl,
+  gX,
+  gXSm,
+  gXMd,
+  gXLg,
+  gXXl,
+  gXXxl,
+  gY,
+  gYSm,
+  gYMd,
+  gYLg,
+  gYXl,
+  gYXxl,
+}: GutterProps) {
+  return {
+    [`g-${g}`]: g,
+    [`g-sm-${gSm}`]: gSm,
+    [`g-md-${gMd}`]: gMd,
+    [`g-lg-${gLg}`]: gLg,
+    [`g-xl-${gXl}`]: gXl,
+    [`g-xxl-${gXxl}`]: gXxl,
+    [`gx-${gX}`]: gX,
+    [`gx-sm-${gXSm}`]: gXSm,
+    [`gx-md-${gXMd}`]: gXMd,
+    [`gx-lg-${gXLg}`]: gXLg,
+    [`gx-xl-${gXXl}`]: gXXl,
+    [`gx-xxl-${gXXxl}`]: gXXxl,
+    [`gy-${gY}`]: gY,
+    [`gy-sm-${gYSm}`]: gYSm,
+    [`gy-md-${gYMd}`]: gYMd,
+    [`gy-lg-${gYLg}`]: gYLg,
+    [`gy-xl-${gYXl}`]: gYXl,
+    [`gy-xxl-${gYXxl}`]: gYXxl,
+  }
+}
